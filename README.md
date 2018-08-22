@@ -6,4 +6,5 @@ What does this include?
 - IBaseClientDLL::IN_KeyEvent
 - IPanel::PaintTraverse
 - Important/useful interface pointers
+- Things you need to write an aimbot, esp, and other features
 - Example menu
