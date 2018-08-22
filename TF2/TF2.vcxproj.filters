@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="helpers\util.h">
+      <Filter>src\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\vmt.h">
+      <Filter>src\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\sdk.h">
+      <Filter>src\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\engine\ivengineclient.h">
+      <Filter>src\sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client\c_baseentity.h">
+      <Filter>src\sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client\ibaseclientdll.h">
+      <Filter>src\sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client\icliententitylist.h">
+      <Filter>src\sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client\iclientmodeshared.h">
+      <Filter>src\sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client\user_cmd.h">
+      <Filter>src\sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="global\global.h">
+      <Filter>src\global</Filter>
+    </ClInclude>
+    <ClInclude Include="global\interfaces\interfaces.h">
+      <Filter>src\global\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="global\hooks\hooks.h">
+      <Filter>src\global\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="setup\setup.h">
+      <Filter>src\setup</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\engine\ienginetrace.h">
+      <Filter>src\sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\vector.h">
+      <Filter>src\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\vgui\ipanel.h">
+      <Filter>src\sdk\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\vgui\isurface.h">
+      <Filter>src\sdk\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\color.h">
+      <Filter>src\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\public\global_vars_base.h">
+      <Filter>src\sdk\public</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\engine\iefx.h">
+      <Filter>src\sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\engine\ienginevgui.h">
+      <Filter>src\sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\engine\ivdebugoverlay.h">
+      <Filter>src\sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="global\draw\draw.h">
+      <Filter>src\global\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="global\fonts\fonts.h">
+      <Filter>src\global\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\vars\vars.h">
+      <Filter>src\menu\vars</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f5d55317-d3f1-40f9-a4e2-d5095cf79504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk">
+      <UniqueIdentifier>{3aa81971-30dd-47ac-8d1e-3977b5141634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk\client">
+      <UniqueIdentifier>{801450bb-2aaf-48f1-9491-6407348c3b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk\engine">
+      <UniqueIdentifier>{807c769c-6b7c-425a-96aa-2b125e707167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\helpers">
+      <UniqueIdentifier>{91fbeea4-e617-4ebf-aba3-6baeb9783831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\global">
+      <UniqueIdentifier>{e6adfec7-224d-4639-a9af-325ce01a924c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\global\hooks">
+      <UniqueIdentifier>{4050ea55-1332-40f4-8e8d-5ea07477cc14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\global\interfaces">
+      <UniqueIdentifier>{b58b877b-e160-4ec5-8c35-4b6528e5a033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\setup">
+      <UniqueIdentifier>{f295d70e-2c1a-4c1d-af43-70cce58465ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk\vgui">
+      <UniqueIdentifier>{22f5c084-78db-4c53-ba75-33882f1cd4d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk\public">
+      <UniqueIdentifier>{b9c1e6b9-ba1e-413d-b936-34b25e152a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\global\draw">
+      <UniqueIdentifier>{1374bb84-2e76-4e42-997c-3a42aacd0431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\global\fonts">
+      <UniqueIdentifier>{2fe84bb6-a770-40cf-8e61-e5c76167eaf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu">
+      <UniqueIdentifier>{07dcefc1-94a9-4cee-824a-b02a5bee3fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu\vars">
+      <UniqueIdentifier>{c8ed7030-45e9-4f86-9acd-c89d56e51c83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="global\global.cpp">
+      <Filter>src\global</Filter>
+    </ClCompile>
+    <ClCompile Include="global\interfaces\interfaces.cpp">
+      <Filter>src\global\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="global\hooks\hooks.cpp">
+      <Filter>src\global\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="setup\setup.cpp">
+      <Filter>src\setup</Filter>
+    </ClCompile>
+    <ClCompile Include="global\draw\draw.cpp">
+      <Filter>src\global\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="global\fonts\fonts.cpp">
+      <Filter>src\global\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\menu.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\vars\vars.cpp">
+      <Filter>src\menu\vars</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
