@@ -13,7 +13,7 @@ bool __fastcall hk_create_move(iclientmodeshared* ecx, PVOID edx, float input_sa
 
 	// acquire a pointer to bsendpacket
 	uintptr_t _bp; __asm mov _bp, ebp;
-	bool* send_packet = (bool*)(***(uintptr_t***)_bp - 1);
+	g::send_packet = (bool*)(***(uintptr_t***)_bp - 1);
 
 	if (g::local != nullptr || cmd != nullptr) {
 		// empty
