@@ -68,10 +68,10 @@ public:
 		u::call_vfunc<original_fn>(this, 67)(this, font, windows_font_name, tall, weight, blur, scanlines, flags, 0, 0);
 	}
 
-	bool get_text_size(unsigned long font, const wchar_t* text, int& width, int& tall)
+	void get_text_size(unsigned long font, const wchar_t* text, int& width, int& tall)
 	{
-		using original_fn = bool(__thiscall*)(PVOID, unsigned long, const wchar_t*, int&, int&);
-		return u::call_vfunc<original_fn>(this, 75)(this, font, text, width, tall);
+		using original_fn = void(__thiscall*)(PVOID, unsigned long, const wchar_t*, int&, int&);
+		u::call_vfunc<original_fn>(this, 75)(this, font, text, width, tall);
 	}
 
 };
