@@ -177,7 +177,7 @@ public:
 	void trace_ray(const ray_t& ray, unsigned int mask, itracefilter* trace_filter, trace_t* trace)
 	{
 		using original_fn = void(__thiscall*)(PVOID, const ray_t&, unsigned int, itracefilter*, trace_t*);
-		return u::call_vfunc<original_fn>(this, 5)(this, ray, mask, trace_filter, trace);
+		return u::call_vfunc<original_fn>(this, 4)(this, ray, mask, trace_filter, trace);
 	}
 
 };
